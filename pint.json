@@ -1,0 +1,328 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "@PSR12": true,
+        "@PHP82Migration": true,
+        "align_multiline_comment": {
+            "comment_type": "phpdocs_only"
+        },
+        "blank_line_before_statement": {
+            "statements": [
+                "break",
+                "continue",
+                "declare",
+                "return",
+                "throw",
+                "try"
+            ]
+        },
+        "blank_lines_before_namespace": {
+            "max_line_breaks": 2,
+            "min_line_breaks": 2
+        },
+        "cast_spaces": {
+            "space": "single"
+        },
+        "class_attributes_separation": {
+            "elements": {
+                "const": "one",
+                "method": "one",
+                "property": "one",
+                "trait_import": "none",
+                "case": "none"
+            }
+        },
+        "class_reference_name_casing": true,
+        "combine_consecutive_issets": true,
+        "combine_consecutive_unsets": true,
+        "compact_nullable_type_declaration": true,
+        "concat_space": {
+            "spacing": "none"
+        },
+        "declare_equal_normalize": {
+            "space": "none"
+        },
+        "fully_qualified_strict_types": true,
+        "heredoc_to_nowdoc": true,
+        "include": true,
+        "increment_style": {
+            "style": "post"
+        },
+        "linebreak_after_opening_tag": true,
+        "lowercase_cast": true,
+        "lowercase_static_reference": true,
+        "magic_constant_casing": true,
+        "magic_method_casing": true,
+        "multiline_whitespace_before_semicolons": {
+            "strategy": "no_multi_line"
+        },
+        "native_function_casing": true,
+        "native_type_declaration_casing": true,
+        "new_with_braces": {
+            "anonymous_class": false,
+            "named_class": true
+        },
+        "new_with_parentheses": {
+            "anonymous_class": false,
+            "named_class": true
+        },
+        "no_blank_lines_after_class_opening": true,
+        "no_blank_lines_after_phpdoc": true,
+        "no_empty_phpdoc": true,
+        "no_empty_statement": true,
+        "no_extra_blank_lines": {
+            "tokens": [
+                "extra",
+                "throw",
+                "use"
+            ]
+        },
+        "no_leading_import_slash": true,
+        "no_leading_namespace_whitespace": true,
+        "no_mixed_echo_print": {
+            "use": "echo"
+        },
+        "no_multiline_whitespace_around_double_arrow": true,
+        "no_short_bool_cast": true,
+        "no_singleline_whitespace_before_semicolons": true,
+        "no_spaces_around_offset": {
+            "positions": [
+                "inside",
+                "outside"
+            ]
+        },
+        "no_unneeded_braces": {
+            "namespaces": false
+        },
+        "no_unneeded_control_parentheses": {
+            "statements": [
+                "break",
+                "clone",
+                "continue",
+                "echo_print",
+                "return",
+                "switch_case",
+                "yield"
+            ]
+        },
+        "no_unused_imports": true,
+        "no_useless_else": true,
+        "no_useless_return": true,
+        "no_trailing_comma_in_singleline": {
+            "elements": [
+                "arguments",
+                "array_destructuring",
+                "array",
+                "group_import"
+            ]
+        },
+        "no_whitespace_in_blank_line": true,
+        "not_operator_with_successor_space": true,
+        "nullable_type_declaration": {
+            "syntax": "question_mark"
+        },
+        "nullable_type_declaration_for_default_null_value": {
+            "use_nullable_type_declaration": true
+        },
+        "object_operator_without_whitespace": true,
+        "ordered_class_elements": {
+            "case_sensitive": false,
+            "order": [
+                "use_trait",
+                "case",
+                "constant_public",
+                "constant_protected",
+                "constant_private",
+                "property_public",
+                "property_protected",
+                "property_private",
+                "construct",
+                "destruct",
+                "magic",
+                "phpunit",
+                "method_public",
+                "method_protected",
+                "method_private"
+            ],
+            "sort_algorithm": "none"
+        },
+        "ordered_imports": {
+            "case_sensitive": false,
+            "imports_order": [
+                "const",
+                "class",
+                "function"
+            ],
+            "sort_algorithm": "alpha"
+        },
+        "ordered_interfaces": {
+            "case_sensitive": false,
+            "direction": "ascend",
+            "order": "alpha"
+        },
+        "ordered_types": {
+            "case_sensitive": false,
+            "null_adjustment": "always_first",
+            "sort_algorithm": "alpha"
+        },
+        "phpdoc_indent": true,
+        "phpdoc_inline_tag_normalizer": {
+            "tags": [
+                "example",
+                "id",
+                "internal",
+                "inheritdoc",
+                "inheritdocs",
+                "link",
+                "source",
+                "toc",
+                "tutorial"
+            ]
+        },
+        "phpdoc_no_access": true,
+        "phpdoc_no_package": true,
+        "phpdoc_no_useless_inheritdoc": true,
+        "phpdoc_scalar": {
+            "types": [
+                "boolean",
+                "callback",
+                "double",
+                "integer",
+                "real",
+                "str"
+            ]
+        },
+        "phpdoc_single_line_var_spacing": true,
+        "phpdoc_summary": true,
+        "phpdoc_trim": true,
+        "phpdoc_types": {
+            "groups": [
+                "simple",
+                "alias",
+                "meta"
+            ]
+        },
+        "phpdoc_types_order": {
+            "case_sensitive": false,
+            "null_adjustment": "always_first",
+            "sort_algorithm": "alpha"
+        },
+        "phpdoc_var_without_name": true,
+        "return_to_yield_from": true,
+        "return_type_declaration": {
+            "space_before": "none"
+        },
+        "single_line_comment_style": {
+            "comment_types": [
+                "hash"
+            ]
+        },
+        "single_quote": true,
+        "single_space_around_construct": {
+            "constructs_contain_a_single_space": [
+                "yield_from"
+            ],
+            "constructs_preceded_by_a_single_space": [
+                "as",
+                "use_lambda"
+            ],
+            "constructs_followed_by_a_single_space": [
+                "abstract",
+                "as",
+                "attribute",
+                "break",
+                "case",
+                "catch",
+                "class",
+                "clone",
+                "comment",
+                "const",
+                "const_import",
+                "continue",
+                "do",
+                "echo",
+                "else",
+                "elseif",
+                "enum",
+                "extends",
+                "final",
+                "finally",
+                "for",
+                "foreach",
+                "function",
+                "function_import",
+                "global",
+                "goto",
+                "if",
+                "implements",
+                "include",
+                "include_once",
+                "instanceof",
+                "insteadof",
+                "interface",
+                "match",
+                "named_argument",
+                "namespace",
+                "new",
+                "open_tag_with_echo",
+                "php_doc",
+                "php_open",
+                "print",
+                "private",
+                "protected",
+                "public",
+                "readonly",
+                "require",
+                "require_once",
+                "return",
+                "static",
+                "switch",
+                "throw",
+                "trait",
+                "try",
+                "type_colon",
+                "use",
+                "use_lambda",
+                "use_trait",
+                "var",
+                "while",
+                "yield",
+                "yield_from"
+            ]
+        },
+        "space_after_semicolon": {
+            "remove_in_empty_for_expressions": false
+        },
+        "standardize_not_equals": true,
+        "ternary_operator_spaces": true,
+        "trim_array_spaces": true,
+        "trailing_comma_in_multiline": {
+            "after_heredoc": true,
+            "elements": [
+                "arguments",
+                "arrays",
+                "match",
+                "parameters"
+            ]
+        },
+        "type_declaration_spaces": {
+            "elements": [
+                "function",
+                "property"
+            ]
+        },
+        "unary_operator_spaces": true,
+        "whitespace_after_comma_in_array": {
+            "ensure_single_space": true
+        }
+    },
+    "exclude": [
+        "bootstrap",
+        "public",
+        "resources",
+        "storage"
+    ],
+    "notName": [
+        "*.blade.php"
+    ]
+}
